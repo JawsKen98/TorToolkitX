@@ -6,7 +6,7 @@ services:
     environment:
       - POSTGRES_DB=tortk
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=your-pass
+      - POSTGRES_PASSWORD=coolken123
     restart: on-failure
   tortk:
     build: .
